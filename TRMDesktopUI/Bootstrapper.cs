@@ -46,7 +46,7 @@ namespace TRMDesktopUI
 
         protected override void Configure()
         {
-            _container.Instance(ConfigureAutomapper);
+            _container.Instance(ConfigureAutomapper());
 
             _container.Instance(_container)
                 .PerRequest<IProductEndpoint, ProductEndpoint>()
