@@ -18,5 +18,14 @@ namespace TRMDataManager.Library.DataAccess
 
             return output;
         }
+
+        public ProductModel GetProdcutById(int productId)
+        {
+            SqlDataAccess sql = new SqlDataAccess();
+
+            var output = sql.LoadData<ProductModel, dynamic>("dbo.spProduct_GetById", new { id = productId }, "TRMData").FirstOrDefault();
+
+            return output;
+        }
     }
 }
