@@ -37,9 +37,9 @@ namespace TRMDesktopUI.ViewModels
 
         protected override async void OnViewLoaded(object view)
         {
+            base.OnViewLoaded(view);
             try
             {
-                base.OnViewLoaded(view);
                 await LoadProducts();
             }
             catch (Exception ex)
