@@ -108,7 +108,7 @@ namespace TRMDataManager.Library.Internal.DataAccess
                 }
                 catch(Exception ex)
                 {
-                    _logger.LogError(ex, "Commit transaction failed in the dispose method.")
+                    _logger.LogError(ex, "Commit transaction failed in the dispose method.");
                 }
             }
 
