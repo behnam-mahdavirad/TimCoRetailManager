@@ -19,6 +19,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPF", "WPF", "{27E0AA5D-A6A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRMApi", "TRMApi\TRMApi.csproj", "{B5DD2F29-72A7-49C7-862E-9472F97E1A02}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{57FD0EF9-7CC7-4795-9294-2DE3EC2EEC63}"
+	ProjectSection(SolutionItems) = preProject
+		Roadamp.txt = Roadamp.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
