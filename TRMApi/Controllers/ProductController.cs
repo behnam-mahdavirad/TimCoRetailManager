@@ -22,6 +22,7 @@ namespace TRMApi.Controllers
         {
             _config = config;
         }
+
         [HttpGet]
         public List<ProductModel> Get()
         {
